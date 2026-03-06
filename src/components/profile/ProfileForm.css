@@ -1,0 +1,31 @@
+.profile-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-form input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 14px;
+  border: 1px solid #dcdcdc;
+  margin-bottom: 14px;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.profile-form input:focus {
+  outline: none;
+  border: 1px solid #000000;
+}
+
+.profile-form button {
+  background: #000000;
+  color: #FFFBF1;
+}

@@ -1,0 +1,15 @@
+.journal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  color: #666666;
+  font-size: 14px;
+}

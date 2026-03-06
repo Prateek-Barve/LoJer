@@ -1,0 +1,132 @@
+.create-page {
+  min-height: 100vh;
+  background: #FFFBF1;
+  padding: 1.5rem 1rem 3rem 1rem;
+}
+
+.create-container {
+  max-width: 600px;
+  margin: 0 auto;
+  animation: fadeIn 0.4s ease;
+}
+
+.create-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+  color: #000000;
+  text-align: center;
+}
+
+/* ===== FORM CARD ===== */
+
+.journal-form {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 18px;
+  border: 1px solid #e5e5e5;
+}
+
+/* ===== TEXTAREA ===== */
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 14px;
+  border: 1px solid #dcdcdc;
+  margin-bottom: 16px;
+  font-size: 14px;
+  resize: vertical;
+  transition: 0.2s ease;
+}
+
+textarea:focus {
+  outline: none;
+  border: 1px solid #000000;
+}
+
+/* ===== CHECKBOX ===== */
+/* ===== CHECKBOX ROW FIX ===== */
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+/* Hide default checkbox */
+.custom-checkbox input {
+  display: none;
+}
+
+/* Wrapper */
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+  font-size: 14px;
+  color: #000000;
+}
+
+/* Custom box */
+.checkmark {
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  display: inline-block;
+  position: relative;
+  transition: 0.2s ease;
+}
+
+/* Checked state */
+.custom-checkbox input:checked + .checkmark {
+  background: #000000;
+}
+
+/* Check icon */
+.custom-checkbox input:checked + .checkmark::after {
+  content: "✓";
+  position: absolute;
+  color: #FFFBF1;
+  font-size: 13px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Label text */
+.checkbox-text {
+  font-weight: 500;
+}
+
+
+/* ===== BUTTON ===== */
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 14px;
+  border: none;
+  background: #000000;
+  color: #FFFBF1;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+
+/* ===== DIVIDER ===== */
+
+.divider {
+  height: 1px;
+  background: #e5e5e5;
+  margin: 2.5rem 0;
+}
